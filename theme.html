@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <title>
       {% if is_login %}Login
-      {% elif is_home %}{{ site.author }}
+      {% elif is_home %}{{ site.author }} 
       {% elif is_tag %}{{ tag }}
       {% elif post %}{{ post.title }}
-      {% endif %}
+      {% endif %} 
       | {{ site.name }}
-    </title>
+    </title> 
 
     {{ header_meta }}
 
